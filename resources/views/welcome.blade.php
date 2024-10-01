@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel - Livewire</title>
+    <title>Livewire Basics</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -14,10 +14,8 @@
     @vite('resources/js/app.js')
 </head>
 
-<body class="bg-slate-800 text-white">
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="min-h-screen bg-slate-800 text-slate-100 flex flex-col items-center justify-center">
+    <livewire-todos />
 </body>
 
 </html>
