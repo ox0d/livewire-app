@@ -7,15 +7,13 @@
 
     <title>Livewire Basics</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
     @vite('resources/js/app.js')
 </head>
 
 <body class="min-h-screen bg-slate-800 text-slate-100 flex flex-col items-center justify-center">
-    <livewire-todos />
+    <h1 class="text-3xl font-bold">
+        Welcome Screen
+    </h1>
 </body>
 
 </html>

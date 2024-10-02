@@ -2,8 +2,10 @@
 
 namespace App\Livewire;
 
+use Livewire\Attributes\Title;
 use Livewire\Component;
 
+#[Title('Todos')]
 class Todos extends Component
 {
     public $todos = [];
@@ -38,7 +40,7 @@ class Todos extends Component
      */
     public function updated($property, $value)
     {
-        dump('Something has changed!', $property, $value);
+        // dump('Something has changed!', $property, $value);
     }
 
     /**
@@ -53,7 +55,7 @@ class Todos extends Component
      */
     public function updatedTitle($value)
     {
-        dump('Title has changed!', $value);
+        // dump('Title has changed!', $value);
     }
 
     public function addTodo()
