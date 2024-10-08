@@ -1,4 +1,4 @@
-<div class="flex flex-col-2 items-center">
+<div class="flex flex-col-2 items-center justify-center">
     <div class="p-20 flex flex-col items-center">
         <h1 class="text-5xl font-bold mb-4 border-b border-slate-100">Todos</h1>
         <ul class="list-disc list-outside space-y-4">

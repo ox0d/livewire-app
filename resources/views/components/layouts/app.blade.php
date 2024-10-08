@@ -12,12 +12,16 @@
 
 <body class="min-h-screen bg-slate-800 text-slate-100 flex flex-col-2 items-center justify-center">
     <nav class="min-h-screen px-14 flex flex-col items-center justify-center space-y-4 text-xl border-r">
-        <a href="{{ route('home') }}"
+        <a wire:navigate href="{{ route('home') }}"
             class="{{ request()->routeIs('home') ? 'font-bold underline' : '' }}  hover:underline">Home</a>
-        <a href="{{ route('todos') }}"
+        <a wire:navigate href="{{ route('todos') }}"
             class="{{ request()->routeIs('todos') ? 'font-bold underline' : '' }} hover:underline">Todos</a>
-        <a href="{{ route('counter') }}"
+        <a wire:navigate href="{{ route('counter') }}"
             class="{{ request()->routeIs('counter') ? 'font-bold underline' : '' }} hover:underline">Counter</a>
+        <a wire:navigate href="{{ route('posts.index') }}"
+            class="{{ request()->routeIs('posts.index') ? 'font-bold underline' : '' }} hover:underline">Posts.index</a>
+        <a wire:navigate href="{{ route('posts.create') }}"
+            class="{{ request()->routeIs('posts.create') ? 'font-bold underline' : '' }} hover:underline">Posts.create</a>
     </nav>
     <main class="flex-grow">
         {{ $slot }}
