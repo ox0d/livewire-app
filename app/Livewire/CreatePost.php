@@ -9,7 +9,7 @@ use Livewire\Attributes\Rule;
 class CreatePost extends Component
 {
     #[Rule('required', message: 'Yo, add a title')]
-    #[Rule('min:5', message: 'Yo, too short')]
+    #[Rule('min:3', message: 'Yo, too short')]
     public $title = '';
 
     #[Rule('required', message: 'Yo, add content.')]
