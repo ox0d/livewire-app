@@ -11,9 +11,8 @@
 </head>
 
 <body class="min-h-screen bg-slate-800 text-slate-100 flex flex-col items-center justify-center">
-    <h1 class="text-3xl font-bold">
-        Welcome Screen
-    </h1>
+
+    <h1>hello</h1>
 </body>
 
 </html>
